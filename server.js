@@ -7,6 +7,12 @@ dotenv.config({ path:'./config.env' });
 
 const app = express()
 
-app.listen(5000, ()=> {
-    console.log('APP ON PORT 5000')
+app.get('/api/v1/profile/:platform/:gamertag', (req, res) => {
+    res.send('hello')
+})
+
+const port = process.env.PORT || 8000
+
+app.listen(port, ()=> {
+    console.log(`Server Running in ${process.env.NODE_ENV} mode on PORT:${port}`)
 })
