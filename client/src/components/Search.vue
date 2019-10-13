@@ -32,6 +32,15 @@ export default {
     },
     beforeCreate() {
         document.body.className = "body-bg-image"
+    },
+    methods: {
+        onSubmit(){
+            if(!this.gamertag) {
+                console.log('Please Enter a Gamertag')
+            } else {
+                console.log('Profile Conponents')
+            }
+        }
     }
 }
 </script>
