@@ -29,6 +29,9 @@ export default {
             platform: "psn",
             gamertag: ""
         }
+    },
+    beforeCreate() {
+        document.body.className = "body-bg-image"
     }
 }
 </script>
