@@ -36,7 +36,10 @@ export default {
     methods: {
         onSubmit(){
             if(!this.gamertag) {
-                console.log('Please Enter a Gamertag')
+                this.$toasted.show("Please Enter a gamertag" , {
+                    duration: 3000,
+                    icon: 'exclamation-circle'
+                })
             } else {
                 console.log('Profile Conponents')
             }
