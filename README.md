@@ -13,6 +13,6 @@ Link ```https://floating-spire-97681.herokuapp.com/```
 
 > Heroku
 
-## View Delpoyed Link Below\
+## View Delpoyed Link Below
 
 > https://floating-spire-97681.herokuapp.com/
